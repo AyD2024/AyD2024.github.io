@@ -1,14 +1,18 @@
-.body {
-    width: 90%;
+.contenedor{
+width: 85%;
+margin: 0 auto;
+overflow: hidden;
 }
 .super {
-    margin: 2%;
-    padding: 2%;
+    margin: 2% auto;
+    padding: 20px;
     display: inline-flex;
     align-content:space-between;
     vertical-align: middle;
-    width: 90%;
+    width: 100%;
     background-color: whitesmoke;
+    align-self: center;
+    box-sizing: border-box;
 }
 
 h3 {
@@ -19,28 +23,32 @@ h3 {
     font-family: "Amatic SC", sans-serif;
     font-size: 150%;
     font-weight: 700;
-
+    width: 100%;
 }
 #bot1 {
     color: black;
+    width: 100%;
 }
 #bot2 {
     color:#134f5c;
     background-color: whitesmoke;
+    width: 110%;
 }
 #bot3 {
     color:whitesmoke;
     background-color:#134f5c;
+    width: 20%;
 }
 .esta{
     vertical-align: middle;
     background-color: whitesmoke;
 }
 #mapa {
-    width: 100%;
-    height: 300px;
-    padding: 2%;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
     background-color: white;
+    box-sizing: border-box;
 }
 .super h4{
     color:#134f5c;
@@ -48,12 +56,13 @@ h3 {
     text-align: center;
     width: 100%;
     font-family:"Amatic SC", sans-serif;
-    font-size: 2cm;
+    font-size: 300%;
     vertical-align: middle;
 }
 #carrousel{
     width: 50%;
-    padding: 1%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 #texto{
     text-align: center;
@@ -61,7 +70,7 @@ h3 {
     justify-content: center;
 }
 #texto p{
-    font-size: 0.5;
+    font-size: 130%;
     width: 90%;
 }
 
@@ -70,14 +79,14 @@ h3 {
     font-family:"Amatic SC", sans-serif;
     color:#134f5c;
     text-align: center;
-    font-size: 0.7cm;
+    font-size: 150%;
 }
 .otra p{
     width:95%;
     font-family:"Amatic SC", sans-serif;
     color:#134f5c;
     text-align: center;
-    font-size: 0.5cm;
+    font-size: 150%;
 }
 .botones{
     vertical-align: middle;
@@ -85,11 +94,13 @@ h3 {
     width: 95%;
     font-family:"Amatic SC", sans-serif;
 }
-
+.inicio {
+    width: 50%;
+}
 #texto h5{
     width: 65%;
     text-align: center;
-    font-size: 2cm;
+    font-size: 300%;
     font-family:"Amatic SC", sans-serif;
     color: #134f5c;
 }
@@ -99,7 +110,7 @@ h3 {
     text-align: left;
 }
 .card-body p{
-    font-size: 0.5cm;
+    font-size: 150%;
     text-align: left;
 }
 .card-title {
@@ -108,12 +119,30 @@ h3 {
     text-align: left;
 }
 #tarjeta {
-    width: 100%;
-    justify-content: center;
+
     margin-left: 10%;
+    
 }
 img {
-    height: 300px;
-    width:fit-content;
+    height: auto;
+    width:100%;
 }
-
+@media screen and (max-width:800px) {
+    .inicio {
+        width: 100%;
+    }
+    #carrousel {
+        width: 100%;
+    }
+    #texto {
+        width: 100%;
+    }
+    #mapa {
+        width: 100%;
+    }
+}
+@media screen and (max-width:400px) {
+    .contenedor {
+        width: 100%;
+    }
+}
