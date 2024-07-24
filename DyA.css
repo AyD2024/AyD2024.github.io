@@ -6,13 +6,13 @@ overflow: hidden;
 .super {
     margin: 2% auto;
     padding: 20px;
-    
     align-content:space-between;
     vertical-align: middle;
     background-color: whitesmoke;
     align-self: center;
     box-sizing: border-box;
     overflow: auto;
+    display: inline-flex;
 }
 
 h3 {
@@ -21,11 +21,11 @@ h3 {
 #navega {
     background-image: url(fondo.jpg);
     background-repeat: repeat-x;
-    font-family: "Amatic SC", sans-serif;
     font-size: 150%;
     font-weight: 700;
     width: 100%;
     height: auto;
+    font-family: "Amatic SC", sans-serif; 
 }
 #bot1 {
     color: black;
@@ -78,14 +78,16 @@ h3 {
 
 .super p {
     width: 100%;
-    font-family:"Amatic SC", sans-serif;
+    font-family: "Montserrat", sans-serif;;
     color:#134f5c;
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
 }
 .otra p{
     width:95%;
-    font-family:"Amatic SC", sans-serif;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color:#134f5c;
     text-align: center;
     font-size: 150%;
