@@ -16,24 +16,24 @@ overflow: hidden;
 }
 
 h3 {
-    font-family: "Amatic SC", sans-serif; 
+    font-family: "Delius Unicase", cursive;
 }
 #navega {
     background-image: url(fondo.jpg);
     background-repeat: repeat-x;
-    font-size: 150%;
-    font-weight: 700;
+    font-size: 100%;
+    font-weight: 100;
     width: 100%;
     height: auto;
-    font-family: "Amatic SC", sans-serif; 
+    font-family: "Delius Unicase", cursive;
 }
 #bot1 {
     color: black;
     width: 100%;
 }
 #bot2 {
-    color:#134f5c;
-    background-color: whitesmoke;
+    color: whitesmoke;
+    background-color: #134f5c;
     width: 110%;
 }
 #bot3 {
@@ -52,12 +52,15 @@ h3 {
     background-color: white;
     box-sizing: border-box;
 }
+#frase{
+    font-family: "Delius Unicase", cursive;
+}
 .super h4{
     color:#134f5c;
     justify-content: center;
     text-align: center;
     width: 100%;
-    font-family:"Amatic SC", sans-serif;
+    font-family: "Delius Unicase", cursive;;
     font-size: 300%;
     vertical-align: middle;
 }
@@ -72,31 +75,29 @@ h3 {
     justify-content: center;
 }
 #texto p{
-    font-size: 130%;
+    font-size: 100%;
     width: 90%;
 }
 
 .super p {
     width: 100%;
-    font-family: "Montserrat", sans-serif;;
+    font-family: "Montserrat", sans-serif;
     color:#134f5c;
     text-align: center;
     font-size: 100%;
 }
 .otra p{
     width:95%;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Montserrat", sans-serif;
     color:#134f5c;
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
 }
 .botones{
     vertical-align: middle;
     text-align: center;
     width: 95%;
-    font-family:"Amatic SC", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 .inicio {
     width: 50%;
@@ -105,7 +106,7 @@ h3 {
     width: 65%;
     text-align: center;
     font-size: 300%;
-    font-family:"Amatic SC", sans-serif;
+    font-family: "Delius Unicase", cursive;
     color: #134f5c;
 }
 .card-body{
@@ -114,11 +115,11 @@ h3 {
     text-align: left;
 }
 .card-body p{
-    font-size: 150%;
+    font-size: 100%;
     text-align: left;
 }
 .card-title {
-    font-family:"Amatic SC", sans-serif;
+    font-family: "Delius Unicase", cursive;
     font-weight: 700;
     text-align: left;
 }
