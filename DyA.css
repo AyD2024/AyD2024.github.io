@@ -144,11 +144,11 @@ img {
     #mapa {
         width: 100%;
     }
-    .super { display:block}
+    .super { display:flow-root}
 }
 @media screen and (max-width:400px) {
     .contenedor {
         width: 100%;
     }
-    .super { display: block ;}
+    .super { display:flow-root}
 }
