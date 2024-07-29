@@ -27,6 +27,7 @@ h3 {
     width: 100%;
     height: auto;
     font-family: "Delius Unicase", cursive;
+    display: inline-table;
 }
 #bot1 {
     color: #000000;
@@ -83,6 +84,7 @@ h3 {
 #texto p{
     font-size: 100%;
     width: 90%;
+    text-align: center;
 }
 
 .super p {
