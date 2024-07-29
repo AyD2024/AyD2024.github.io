@@ -159,11 +159,13 @@ img {
     #mapa {
         width: 100%;
     }
+    #navega{display:flow-root}
     .super { display:flow-root}
 }
 @media screen and (max-width:400px) {
     .contenedor {
         width: 100%;
     }
+    #navega{display:flow-root}
     .super { display:flow-root}
 }
