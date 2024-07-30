@@ -138,13 +138,17 @@ h3 {
 
     
 }
-
+.carousel-control-prev-icon {
+background-color: #134f5c;
+}
+.carousel-control-next-icon {
+    background-color: #134f5c;
+}
 img {
     height: 50%;
     width:auto;
 }
 .regalo{
-    
     width: 100%;
     text-align: center;
 }
